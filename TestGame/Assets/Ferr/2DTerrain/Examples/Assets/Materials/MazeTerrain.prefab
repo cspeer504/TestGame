@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &143724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 443724}
+  - 114: {fileID: 11443724}
+  m_Layer: 0
+  m_Name: MazeTerrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &443724
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11443724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a21887e1cf80db49978ff567bcdd66c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fillMaterial: {fileID: 2100000, guid: 909cca68561d40f4db1128a4c9785370, type: 2}
+  edgeMaterial: {fileID: 2100000, guid: 2a1f00e92d3471349ad292d938fa49bd, type: 2}
+  descriptors:
+  - applyTo: 0
+    zOffset: 0
+    yOffset: 0
+    leftCap:
+      serializedVersion: 2
+      x: .025390625
+      y: .138671875
+      width: 0
+      height: 0
+    rightCap:
+      serializedVersion: 2
+      x: .951171875
+      y: .138671875
+      width: 0
+      height: 0
+    body:
+    - serializedVersion: 2
+      x: .025390625
+      y: .138671875
+      width: .92578125
+      height: .189453125
+    capOffset: 0
+  - applyTo: 1
+    zOffset: 0
+    yOffset: 0
+    leftCap:
+      serializedVersion: 2
+      x: .7734375
+      y: .50390625
+      width: .173828125
+      height: .181640625
+    rightCap:
+      serializedVersion: 2
+      x: .5078125
+      y: .498046875
+      width: .16015625
+      height: .185546875
+    body:
+    - serializedVersion: 2
+      x: .02734375
+      y: .498046875
+      width: .44140625
+      height: .1875
+    capOffset: 0
+  - applyTo: 2
+    zOffset: 0
+    yOffset: 0
+    leftCap:
+      serializedVersion: 2
+      x: .775390625
+      y: .505859375
+      width: .173828125
+      height: .185546875
+    rightCap:
+      serializedVersion: 2
+      x: .505859375
+      y: .49609375
+      width: .162109375
+      height: .1953125
+    body:
+    - serializedVersion: 2
+      x: .02734375
+      y: .5
+      width: .443359375
+      height: .185546875
+    capOffset: 0
+  - applyTo: 3
+    zOffset: 0
+    yOffset: 0
+    leftCap:
+      serializedVersion: 2
+      x: .02734375
+      y: .123046875
+      width: 0
+      height: 0
+    rightCap:
+      serializedVersion: 2
+      x: .951171875
+      y: .123046875
+      width: 0
+      height: 0
+    body:
+    - serializedVersion: 2
+      x: .02734375
+      y: .123046875
+      width: .923828125
+      height: .1953125
+    capOffset: 0
+  isPixel: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 143724}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

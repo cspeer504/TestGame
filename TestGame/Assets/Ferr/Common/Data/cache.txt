@@ -10,6 +10,8 @@ Assets/Ferr/2DTerrain/TerrainMaterials/CaveTerrainMaterial.prefab
 Assets/Ferr/2DTerrain/Examples/Assets/GooPlayer.prefab
 Assets/Ferr/2DTerrain/Examples/Assets/FerrlibLogoSmall.prefab
 Assets/Ferr/2DTerrain/Examples/Assets/Tumbleweed.prefab
+Assets/Ferr/2DTerrain/Examples/Assets/Materials/MazeTerrain.prefab
+Assets/Ferr/2DTerrain/Examples/Assets/Materials/MazeFloor.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Ferr/2DTerrain/TerrainMaterials/ForestTerrainMaterial.prefab
@@ -22,3 +24,9 @@ Assets/Ferr/2DTerrain/TerrainMaterials/ForegroundTerrainMaterial.prefab
 Assets/Ferr/2DTerrain/Examples/Assets/FerrlibLogoSmall.prefab
 Assets/Ferr/2DTerrain/Examples/Assets/Tumbleweed.prefab
 Assets/Ferr/2DTerrain/TerrainMaterials/SandTerrainMaterial.prefab
+Assets/NewTerrainMaterial.prefab
+Assets/MazeTerrain.prefab
+Assets/Ferr/2DTerrain/MazeTerrain.prefab
+Assets/Ferr/2DTerrain/Examples/Assets/Materials/MazeTerrain.prefab
+Assets/Ferr/2DTerrain/Examples/Assets/Materials/NewTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/Examples/Assets/Materials/MazeFloor.prefab
